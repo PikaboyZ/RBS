@@ -21,6 +21,7 @@ a:active {
     height: 170px;
     color: #ffffff;
     position: relative;
+    background-image: url("https://d1j36w0bax18n0.cloudfront.net/media/wysiwyg/boutique-site/anko/anko-all.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,14 +147,18 @@ a:active {
 
     .category .content__txt-1 {
         font-size: 7rem;
+        line-height: 7rem;
     }
 
     .category .content__txt-2 {
         font-size: 3rem;
+        line-height: 3rem;
     }
 
     .category .content__txt-3 {
         font-size: 11rem;
+        line-height: 11rem;
+        margin-top: 30px;
     }
 
     .category .content__txt-4 {
@@ -187,9 +192,17 @@ a:active {
     font-weight: bold;
 }
 
+.desktopNavRoot ul.urlNavEl:hover .subMenuContainer li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .desktopNavRoot .subMenuContainer {
     background-color: #ffffff;
-    flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
     min-width: 150px;
 }
 
