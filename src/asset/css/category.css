@@ -16,6 +16,11 @@ a:active {
     margin: auto;
 }
 
+.category .content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .category .content__img {
     width: 100%;
     height: 170px;
