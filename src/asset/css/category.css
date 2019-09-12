@@ -189,12 +189,15 @@ a:active {
 }
 
 .mobileNavRoot .topNavEl {
-    padding: 5px 10px;
+    padding: 5px 0 0;
+    margin: 0 5px;
     font-weight: bold;
+    color: #aaaaaa;
 }
 
 .mobileNavRoot .topNavEl.nav-active {
-    text-decoration: underline;
+    color: #333333;
+    border-bottom: 2px solid #333333;
 }
 
 .mobileNavRoot .EKED8 .subMenuContainer {
@@ -217,20 +220,20 @@ a:active {
 .desktopNavRoot ul.urlNavEl {
     padding: 5px;
     margin: auto 10px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
-.desktopNavRoot ul.urlNavEl:hover {
+.desktopNavRoot ul.urlNavEl:hover > li.topNavEl {
     -webkit-box-shadow: 0 2px 0 0 #333333;
     box-shadow: 0 2px 0 0 #333333;
 }
 
-.desktopNavRoot ul.urlNavEl:hover > li a {
+.desktopNavRoot ul.urlNavEl:hover > li.topNavEl a {
     font-weight: bold;
 }
 
 .desktopNavRoot ul.urlNavEl:hover .subMenuContainer {
-    top: 34px !important;
+    top: 32px !important;
 }
 
 .desktopNavRoot ul.urlNavEl:hover .subMenuContainer li {
