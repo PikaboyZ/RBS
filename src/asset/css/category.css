@@ -193,6 +193,10 @@ a:active {
     font-weight: bold;
 }
 
+.mobileNavRoot .topNavEl.nav-active {
+    text-decoration: underline;
+}
+
 .mobileNavRoot .EKED8 .subMenuContainer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
