@@ -1,1 +1,1 @@
-$(document).ready(function(){$("head").append('<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">'),$(".mobileNavRoot .topNavEl").on("click",function(){$(".mobileNavRoot .topNavEl").removeClass("nav-active"),$(this).addClass("nav-active")})});
+$(document).ready(function(){$("head").append('<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">'),$(".root").on("click",".mobileNavRoot .topNavEl",function(){$(".mobileNavRoot .topNavEl").removeClass("nav-active"),$(this).addClass("nav-active")})});
