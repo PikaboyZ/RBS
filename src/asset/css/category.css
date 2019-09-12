@@ -18,16 +18,18 @@ a:active {
 
 .category__logo {
     text-align: center;
-    margin-bottom: 15px;
+    margin: 15px auto;
 }
 
 .category__logo img {
     height: 40px;
 }
 
-.category .content {
-    padding-left: 30px;
-    padding-right: 30px;
+@media (min-width: 64em) {
+    .category .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 .category .content__img {
@@ -180,8 +182,25 @@ a:active {
     }
 }
 
+.mobileNavRoot ._1QSQq {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 .mobileNavRoot .topNavEl {
-    padding: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.mobileNavRoot .EKED8 .subMenuContainer {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.mobileNavRoot .EKED8 .subMenuContainer a {
+    white-space: nowrap;
 }
 
 .desktopNavRoot {
