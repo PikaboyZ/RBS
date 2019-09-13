@@ -188,6 +188,15 @@ a:active {
     justify-content: space-between;
 }
 
+.mobileNavRoot .anko-home__link {
+    width: 50px;
+    display: block;
+}
+
+.mobileNavRoot .anko-home__img {
+    display: block;
+}
+
 .mobileNavRoot .topNavEl {
     padding: 5px 0 0;
     margin: 0 5px;
@@ -215,6 +224,18 @@ a:active {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    height: 30px;
+}
+
+.desktopNavRoot .anko-home__link {
+    margin: auto 10px;
+    padding: 5px;
+    height: 100%;
+}
+
+.desktopNavRoot .anko-home__img {
+    height: 100%;
+    display: block;
 }
 
 .desktopNavRoot ul.urlNavEl {
