@@ -16,15 +16,6 @@ a:active {
     margin: auto;
 }
 
-.category__logo {
-    text-align: center;
-    margin: 15px auto;
-}
-
-.category__logo img {
-    height: 40px;
-}
-
 @media (min-width: 64em) {
     .category .content {
         padding-left: 30px;
